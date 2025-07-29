@@ -16,6 +16,7 @@
     $qte_pneus = isset($_POST['qte_pneus']) ? (int)$_POST['qte_pneus'] : 0;
     $qte_huiles = isset($_POST['qte_huiles']) ? (int)$_POST['qte_huiles'] : 0;
     $qte_bougies = isset($_POST['qte_bougies']) ? (int)$_POST['qte_bougies'] : 0;
+    $trouver = isset($_POST['trouver']) ? $_POST['trouver'] : '';
 
 
     $qte_total = 0 ;
@@ -83,6 +84,27 @@
      $montant_total_apres_remie_et_taxes = $montant_total_final * (1 + $taux_taxes);
      echo 'Montant total de votre commande apres remise et taxes: ' . number_format($montant_total_apres_remie_et_taxes, 2) . ' Dollars<br>';
 
+    //affichage de la maniere dont le client a connue le site
+    switch($trouver)
+    {
+        case 'a':
+            echo '<p> Client regulier </p>';
+            break;
+        case 'b':
+            echo '<p> Par un ami </p>';
+            break;
+        case 'c' :
+            echo '<p> Par hasard </p>';
+            break;
+        case 'd':
+            echo '<p> par une publicite </p>';
+            break;
+        case 'e' :
+            echo '<p> par un annuaire telephonique </p>';
+            break;
+        default :
+            echo '<p> Impossible de determniner comment le client a connu le site </p>';
+    }
     ?>
 </body>
 </html>
