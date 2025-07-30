@@ -1,6 +1,6 @@
 <p>Bien venue sur notre site. </p>
-<?php 
+<?php
 echo 'veillez appuyez en bas pour pouvoir passez votre commande'; ?>
 <p>Merci d'avoir compris !</p>
 
-<a href="orderform.html">passer votre commande</a>
+<a href="orderform.php">passer votre commande</a>

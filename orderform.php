@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form action="processorder.php" method="post">
         <table border=0>
@@ -28,28 +30,23 @@
                 <td>Bougies</td>
                 <td align="center">
                     <input type="text" name="qte_bougies" size="3" maxlength="3">
-                 </td>
+                </td>
             </tr>
 
             <tr>
                 <td> Comment avez vous eu <br> connaissance de notre site ? </td>
-                <td><select name="Trouver">
-                        <option value="a">Par un client regulier</option>
-                        <option value="b">Par un amie</option>
-                        <option value="c">Par hasard</option>
-                        <option value="d">Par une publicite </option>
-                        <option value="e">Dans un annuaire telephonique</option>
-                    </select>
+                <td align="center">
+                    <input type="tex" name="adresse" size="30" maxlength="50">
                 </td>
             </tr>
 
             <tr>
                 <td colspan="2" border=0 align="center">
-                    <input type="submit" value="Envoyer la commande"
+                    <input type="submit" value="Envoyer la commande">
                 </td>
             </tr>
-
         </table>
     </form>
 </body>
+
 </html>
