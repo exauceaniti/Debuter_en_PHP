@@ -95,6 +95,7 @@
         echo '<p> Adresse de la livraison : ' . htmlspecialchars($adresse) . '</p>';
     }
 
+
     ?>
 </body>
 
