@@ -1,0 +1,168 @@
+     
+     
+     
+     
+     
+     
+     /*STYLE CSS POUR LA CLASSE COMMANDE.TXT   POUR PASSER LA COMMANDE PRINCIPALE*/
+
+      body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .form-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .form-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .form-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .form-table input[type="text"] {
+            width: 60px;
+            padding: 5px;
+            text-align: center;
+        }
+        .submit-btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Style pour les champs d'adresse */
+        .form-table input[type="text"],
+        .form-table input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin: 4px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Style pour la section adresse */
+        .form-table tr.section-title {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+
+
+
+
+        /*STYLE CSS POUR LA CLASSE PROCESSORDER.PHP L'AFFICHAGE DES RECAPITULATIFS DE LA COMMANDE*/
+
+/* Style général */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* En-tête */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.header h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.header-details {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+/* Tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.price {
+    text-align: right;
+    font-family: 'Courier New', monospace;
+}
+
+.total {
+    font-weight: bold;
+    background-color: #f2f9fc;
+}
+
+/* Pied de page */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Message d'erreur */
+.error {
+    background-color: #ffecec;
+    color: #c00;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid #c00;
+    margin: 20px 0;
+}
