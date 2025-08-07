@@ -12,7 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Le Garage de Bob</title>
-    <style>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #60bfe5ff;
@@ -45,7 +46,7 @@
         a:hover {
             background-color: #005fa3;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <h1> Le Garage de Exauce</h1>

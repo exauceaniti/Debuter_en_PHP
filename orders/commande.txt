@@ -82,3 +82,74 @@ TVA (15%) : 1,80 Franc
 MONTANT TOTAL TTC : 13,80 Franc
 
 
+===================== COMMANDE DU 07/08/2025 09:18 =====================
+Adresse Client : Rue Kin Num 50
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    3         15,00       45,00          
+--------------------------------------------------------------
+Montant Total HT : 45,00 Franc
+TVA (15%) : 6,75 Franc
+MONTANT TOTAL TTC : 51,75 Franc
+
+
+===================== COMMANDE DU 07/08/2025 09:18 =====================
+Adresse Client : Rue Kin Num 50
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    3         15,00       45,00          
+--------------------------------------------------------------
+Montant Total HT : 45,00 Franc
+TVA (15%) : 6,75 Franc
+MONTANT TOTAL TTC : 51,75 Franc
+
+
+===================== COMMANDE DU 07/08/2025 09:25 =====================
+Adresse Client : Rue Kin Num 50
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    3         15,00       45,00          
+--------------------------------------------------------------
+Montant Total HT : 45,00 Franc
+TVA (15%) : 6,75 Franc
+MONTANT TOTAL TTC : 51,75 Franc
+
+
+===================== COMMANDE DU 07/08/2025 09:27 =====================
+Adresse Client : Rue Kin Num 76
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    45        15,00       675,00         
+Plaquettes de frein      2         20,00       40,00          
+--------------------------------------------------------------
+Montant Total HT : 715,00 Franc
+Remise (10%) : -71,50 Franc
+Montant après remise : 643,50 Franc
+TVA (15%) : 96,53 Franc
+MONTANT TOTAL TTC : 740,03 Franc
+
+
+===================== COMMANDE DU 07/08/2025 09:28 =====================
+Adresse Client : Rue Kin Num 76
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    45        15,00       675,00         
+Plaquettes de frein      2         20,00       40,00          
+--------------------------------------------------------------
+Montant Total HT : 715,00 Franc
+Remise (10%) : -71,50 Franc
+Montant après remise : 643,50 Franc
+TVA (15%) : 96,53 Franc
+MONTANT TOTAL TTC : 740,03 Franc
+
+
