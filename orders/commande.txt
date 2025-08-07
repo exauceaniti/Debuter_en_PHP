@@ -1,155 +1,410 @@
 
-
-===================== COMMANDE DU 07/08/2025 07:38 =====================
+===================== COMMANDE DU 07/08/2025 12:51 =====================
 Adresse Client : Rue Kin Num 76
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
 Pneus                    4         15,00       60,00          
-Huile                    2         12,00       24,00          
-Bougies                  2         10,00       20,00          
-Plaquettes de frein      2         20,00       40,00          
-Essuie-glaces            1         25,00       25,00          
-Joints                   1         8,50        8,50           
-Thermostats              1         35,00       35,00          
-Volants                  1         15,00       15,00          
-Portes                   1         200,00      200,00         
 --------------------------------------------------------------
-Montant Total HT : 427,50 Franc
-Remise (5%) : -21,38 Franc
-Montant après remise : 406,13 Franc
-TVA (15%) : 60,92 Franc
-MONTANT TOTAL TTC : 467,04 Franc
+Montant Total HT : 60,00 Franc
+TVA (15%) : 9,00 Franc
+MONTANT TOTAL TTC : 69,00 Franc
 
 
-===================== COMMANDE DU 07/08/2025 07:49 =====================
-Adresse Client : Rue Kin Num 76
-Téléphone : +243820853461
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    4         15,00       60,00          
-Huile                    2         12,00       24,00          
-Bougies                  2         10,00       20,00          
-Plaquettes de frein      2         20,00       40,00          
-Essuie-glaces            1         25,00       25,00          
-Joints                   1         8,50        8,50           
-Thermostats              1         35,00       35,00          
-Volants                  1         15,00       15,00          
-Portes                   1         200,00      200,00         
---------------------------------------------------------------
-Montant Total HT : 427,50 Franc
-Remise (5%) : -21,38 Franc
-Montant après remise : 406,13 Franc
-TVA (15%) : 60,92 Franc
-MONTANT TOTAL TTC : 467,04 Franc
-
-
-===================== COMMANDE DU 07/08/2025 08:02 =====================
-Adresse Client : Rue Kin Num 76
-Téléphone : +243820853461
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    4         15,00       60,00          
-Huile                    2         12,00       24,00          
-Bougies                  2         10,00       20,00          
-Plaquettes de frein      2         20,00       40,00          
-Essuie-glaces            1         25,00       25,00          
-Joints                   1         8,50        8,50           
-Thermostats              1         35,00       35,00          
-Volants                  1         15,00       15,00          
-Portes                   1         200,00      200,00         
---------------------------------------------------------------
-Montant Total HT : 427,50 Franc
-Remise (5%) : -21,38 Franc
-Montant après remise : 406,13 Franc
-TVA (15%) : 60,92 Franc
-MONTANT TOTAL TTC : 467,04 Franc
-
-
-===================== COMMANDE DU 07/08/2025 08:38 =====================
+===================== COMMANDE DU 07/08/2025 14:42 =====================
 Adresse Client : Rdc Butembo 
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
-Huile                    1         12,00       12,00          
+Pneus                    45        15 000,00   675 000,00     
+Huile                    5         12 000,00   60 000,00      
+Bougies                  3         10 000,00   30 000,00      
 --------------------------------------------------------------
-Montant Total HT : 12,00 Franc
-TVA (15%) : 1,80 Franc
-MONTANT TOTAL TTC : 13,80 Franc
+Montant Total HT : 765 000,00 Franc
+Remise (15%) : -114 750,00 Franc
+Montant après remise : 650 250,00 Franc
+TVA (15%) : 97 537,50 Franc
+MONTANT TOTAL TTC : 747 787,50 Franc
 
 
-===================== COMMANDE DU 07/08/2025 09:18 =====================
-Adresse Client : Rue Kin Num 50
+===================== COMMANDE DU 07/08/2025 14:42 =====================
+Adresse Client : Rdc Butembo 
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
-Pneus                    3         15,00       45,00          
+Pneus                    45        15 000,00   675 000,00     
+Huile                    5         12 000,00   60 000,00      
+Bougies                  3         10 000,00   30 000,00      
 --------------------------------------------------------------
-Montant Total HT : 45,00 Franc
-TVA (15%) : 6,75 Franc
-MONTANT TOTAL TTC : 51,75 Franc
+Montant Total HT : 765 000,00 Franc
+Remise (15%) : -114 750,00 Franc
+Montant après remise : 650 250,00 Franc
+TVA (15%) : 97 537,50 Franc
+MONTANT TOTAL TTC : 747 787,50 Franc
 
 
-===================== COMMANDE DU 07/08/2025 09:18 =====================
-Adresse Client : Rue Kin Num 50
+===================== COMMANDE DU 07/08/2025 14:46 =====================
+Adresse Client : 
+Téléphone : 
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    1         15 000,00   15 000,00      
+Huile                    4         12 000,00   48 000,00      
+--------------------------------------------------------------
+Montant Total HT : 63 000,00 Franc
+Remise (15%) : -9 450,00 Franc
+Montant après remise : 53 550,00 Franc
+TVA (15%) : 8 032,50 Franc
+MONTANT TOTAL TTC : 61 582,50 Franc
+
+
+===================== COMMANDE DU 07/08/2025 14:51 =====================
+Adresse Client : 
+Téléphone : 
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    1         15 000,00   15 000,00      
+Huile                    4         12 000,00   48 000,00      
+--------------------------------------------------------------
+Montant Total HT : 63 000,00 Franc
+Remise (15%) : -9 450,00 Franc
+Montant après remise : 53 550,00 Franc
+TVA (15%) : 8 032,50 Franc
+MONTANT TOTAL TTC : 61 582,50 Franc
+
+
+===================== COMMANDE DU 07/08/2025 14:55 =====================
+Adresse Client : Rdc Butembo 
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
-Pneus                    3         15,00       45,00          
+Pneus                    2         15 000,00   30 000,00      
 --------------------------------------------------------------
-Montant Total HT : 45,00 Franc
-TVA (15%) : 6,75 Franc
-MONTANT TOTAL TTC : 51,75 Franc
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
 
 
-===================== COMMANDE DU 07/08/2025 09:25 =====================
-Adresse Client : Rue Kin Num 50
+===================== COMMANDE DU 07/08/2025 15:01 =====================
+Adresse Client : Rdc Butembo 
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
-Pneus                    3         15,00       45,00          
+Pneus                    2         15 000,00   30 000,00      
 --------------------------------------------------------------
-Montant Total HT : 45,00 Franc
-TVA (15%) : 6,75 Franc
-MONTANT TOTAL TTC : 51,75 Franc
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
 
 
-===================== COMMANDE DU 07/08/2025 09:27 =====================
-Adresse Client : Rue Kin Num 76
+===================== COMMANDE DU 07/08/2025 15:14 =====================
+Adresse Client : Rdc Butembo 
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
-Pneus                    45        15,00       675,00         
-Plaquettes de frein      2         20,00       40,00          
+Pneus                    2         15 000,00   30 000,00      
 --------------------------------------------------------------
-Montant Total HT : 715,00 Franc
-Remise (10%) : -71,50 Franc
-Montant après remise : 643,50 Franc
-TVA (15%) : 96,53 Franc
-MONTANT TOTAL TTC : 740,03 Franc
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
 
 
-===================== COMMANDE DU 07/08/2025 09:28 =====================
-Adresse Client : Rue Kin Num 76
+===================== COMMANDE DU 07/08/2025 15:22 =====================
+Adresse Client : Rdc Butembo 
 Téléphone : +243820853461
 
 Article                  Quantité Prix U      Montant        
 --------------------------------------------------------------
-Pneus                    45        15,00       675,00         
-Plaquettes de frein      2         20,00       40,00          
+Pneus                    2         15 000,00   30 000,00      
 --------------------------------------------------------------
-Montant Total HT : 715,00 Franc
-Remise (10%) : -71,50 Franc
-Montant après remise : 643,50 Franc
-TVA (15%) : 96,53 Franc
-MONTANT TOTAL TTC : 740,03 Franc
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:22 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:23 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:23 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:24 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:24 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:24 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:25 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:25 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:26 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:26 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:28 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:29 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:30 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:30 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:31 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:32 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:36 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
+
+
+===================== COMMANDE DU 07/08/2025 15:36 =====================
+Adresse Client : Rdc Butembo 
+Téléphone : +243820853461
+
+Article                  Quantité Prix U      Montant        
+--------------------------------------------------------------
+Pneus                    2         15 000,00   30 000,00      
+--------------------------------------------------------------
+Montant Total HT : 30 000,00 Franc
+Remise (15%) : -4 500,00 Franc
+Montant après remise : 25 500,00 Franc
+TVA (15%) : 3 825,00 Franc
+MONTANT TOTAL TTC : 29 325,00 Franc
 
 

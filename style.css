@@ -236,39 +236,6 @@
         gap: 20px; /* espace entre les images */
         }
 
-    /* Cellule "td" remplacée par un div pour flexbox */
-        .image-cell {
-        flex: 1 1 200px; /* flexible, minimum 200px */
-        max-width: 200px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        border-radius: 12px;
-        overflow: hidden;
-        background-color: var(--table-bg);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        cursor: pointer;
-        }
-
-        .image-cell:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        }
-
-    /* L’image elle-même */
-        .image-cell img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 12px;
-        }
-
-    /* Responsive - sur petits écrans */
-        @media (max-width: 480px) {
-        .image-cell {
-            flex: 1 1 90%;
-            max-width: 90%;
-        }
-        }
-
 
     /* ===== RÉACTIVITÉ ===== */
         @media (max-width: 768px) {
@@ -287,4 +254,136 @@
             max-width: none;
         }
         }
+        .input-adresse {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        }
 
+        /* === STYLE GLOBAL === */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom right, #e8f0f9, #dce9f6);
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+            color: #2e3c43;
+        }
+
+        /* === TITRE === */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #004b74;
+        }
+
+        /* === TABLEAU D'IMAGES === */
+        table {
+            margin: auto;
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+
+        /* === IMAGES ANIMÉES === */
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 3px solid #f3f3f3;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            animation: floatLR 6s ease-in-out infinite;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.09);
+        }
+
+        /* === ANIMATION LENTE GAUCHE DROITE === */
+        @keyframes floatLR {
+            0%   { transform: translateX(0); }
+            50%  { transform: translateX(20px); }
+            100% { transform: translateX(0); }
+        }
+
+        /* === LIEN BOUTON COMMANDE === */
+        a {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 25px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #005f99;
+        }
+
+
+
+
+        .formulaire-contact {
+            width: 55%;
+            margin: 50px auto;
+            background-color: var(--secondary-color);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 216, 255, 0.2);
+            color: #e0e0e0;
+            text-align: center;
+        }
+
+        .formulaire-contact h2 {
+            margin-bottom: 20px;
+            color: #00d8ff;
+            font-size: 22px;
+        }
+
+        .formulaire-contact input,
+        .formulaire-contact textarea {
+            width: 70%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #3e3e55;
+            border-radius: 10px;
+            background-color: #2a2a3d;
+            color: #fff;
+            font-size: 16px;
+            transition: border-color 0.3s;
+            outline: none;
+        }
+
+        .formulaire-contact input:focus,
+        .formulaire-contact textarea:focus {
+            border-color: #00d8ff;
+        }
+
+        .formulaire-contact textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        .formulaire-contact button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #03353d;
+            color:var(--input-border);
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .formulaire-contact button:hover {
+            background-color: #0199b8;
+        }

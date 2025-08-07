@@ -50,16 +50,18 @@
                 <td>Portes</td>
                 <td><input type="text" name="qte_portes" size="3" maxlength="3"></td>
             </tr>
+            <!-- Après les articles comme Volants et Portes -->
+            <tr><td colspan="2"><strong>Informations de contact </strong></td></tr>
+
             <tr>
-                <td>Adresse de livraison </td>
-                <td><input type="text" name="adresse" size="3" maxlength=""></td>
+                <td>Adresse de livraison</td>
+                <td><input type="text" name="adresse" size="40" maxlength="130" class="input-adresse"></td>
             </tr>
             <tr>
-                <td>Telephone</td>
-                <td><input type="text" name="telephone" size="3" maxlength="13"></td>
+                <td>Téléphone</td>
+                <td><input type="text" name="telephone" size="15" maxlength="13"></td>
             </tr>
-            
-           
+
         </table>
         <input type="submit" value="Envoyer la commande" class="submit-btn">
     </form>

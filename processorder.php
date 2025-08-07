@@ -8,7 +8,6 @@
  * 3. Génère un récapitulatif clair en HTML
  * 4. Enregistre les détails dans un fichier texte
  */
-
 // SECTION 1 : RÉCUPÉRATION DES DONNÉES DU FORMULAIRE
 
 // Récupération des quantités d'articles, converties en entier avec 0 comme valeur par défaut
@@ -55,15 +54,15 @@ $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
 
     // Liste des articles disponibles avec leur prix unitaire
     $articles = [
-        'Pneus' => ['quantite' => $qte_pneus, 'prix_unitaire' => 15.00],
-        'Huile' => ['quantite' => $qte_huile, 'prix_unitaire' => 12.00],
-        'Bougies' => ['quantite' => $qte_bougies, 'prix_unitaire' => 10.00],
-        'Plaquettes de frein' => ['quantite' => $qte_plaquettes, 'prix_unitaire' => 20.00],
-        'Essuie-glaces' => ['quantite' => $qte_essuie_glaces, 'prix_unitaire' => 25.00],
-        'Joints' => ['quantite' => $qte_joints, 'prix_unitaire' => 8.50],
-        'Thermostats' => ['quantite' => $qte_thermostats, 'prix_unitaire' => 35.00],
-        'Volants' => ['quantite' => $qte_volants, 'prix_unitaire' => 15.00],
-        'Portes' => ['quantite' => $qte_portes, 'prix_unitaire' => 200.00]
+        'Pneus' => ['quantite' => $qte_pneus, 'prix_unitaire' => 15000],
+        'Huile' => ['quantite' => $qte_huile, 'prix_unitaire' => 12000],
+        'Bougies' => ['quantite' => $qte_bougies, 'prix_unitaire' => 10000],
+        'Plaquettes de frein' => ['quantite' => $qte_plaquettes, 'prix_unitaire' => 20000],
+        'Essuie-glaces' => ['quantite' => $qte_essuie_glaces, 'prix_unitaire' => 25000],
+        'Joints' => ['quantite' => $qte_joints, 'prix_unitaire' => 8000],
+        'Thermostats' => ['quantite' => $qte_thermostats, 'prix_unitaire' => 35000],
+        'Volants' => ['quantite' => $qte_volants, 'prix_unitaire' => 15000],
+        'Portes' => ['quantite' => $qte_portes, 'prix_unitaire' => 20000]
     ];
 
     // Filtrer les articles commandés (quantité > 0) et calculer les montants
@@ -205,5 +204,15 @@ $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
         file_put_contents($chemin_fichier, $contenu, FILE_APPEND);
 
     ?>
+    <!-- <div class="formulaire-contact">
+    <h2>Contactez-nous</h2>
+    <form action="processfeedback.php" method="post">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre adresse email" required>
+            <textarea name="commentaire" placeholder="Votre message..." required></textarea>
+            <button type="submit">Envoyer</button>
+    </form>
+    </div> -->
+
 </body>
 </html> 
