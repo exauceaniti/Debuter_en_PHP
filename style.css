@@ -280,11 +280,13 @@
         }
 
         /* === TABLEAU D'IMAGES === */
-        table {
+        table img{
             margin: auto;
             border-collapse: separate;
             border-spacing: 20px;
+            transition: transform 0.4s cubic-bezier(.25,.8,.25,1), box-shadow 0.4s ease;
         }
+        
 
         /* === IMAGES ANIMÉES === */
         img {
@@ -295,12 +297,17 @@
             border: 3px solid #f3f3f3;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
             animation: floatLR 6s ease-in-out infinite;
-            transition: transform 0.3s ease;
+            transition: transform 1s ease;
         }
 
         img:hover {
-            transform: scale(1.09);
+            transform: scale(1.09) rotate(1deg);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 2);
         }
+
+
+
+
 
         /* === ANIMATION LENTE GAUCHE DROITE === */
         @keyframes floatLR {
