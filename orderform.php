@@ -1,3 +1,5 @@
+<?php require 'header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,7 +9,7 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Commande - Garage de Exauce</h1>
+    <h1>Maseka Food</h1>
     <form action="processorder.php" method="post">
         <table class="form-table">
             <tr>
@@ -15,41 +17,48 @@
                 <td width="30%">Quantité</td>
             </tr>
             <tr>
-                <td>Pneus</td>
-                <td><input type="text" name="qte_pneus" size="3" maxlength="3"></td>
+                <td>Gateau d'anniversaire</td>
+                <td><input type="text" name="qte_gateau1" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Huile</td>
-                <td><input type="text" name="qte_huile" size="3" maxlength="3"></td>
+                <td>Gâteau Forêt Noire</td>
+                <td><input type="text" name="qte_gateau2" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Bougies</td>
-                <td><input type="text" name="qte_bougies" size="3" maxlength="3"></td>
+                <td>Gâteau Noire</td>
+                <td><input type="text" name="qte_gateau3" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Plaquettes de frein</td>
-                <td><input type="text" name="qte_plaquettes" size="3" maxlength="3"></td>
+                <td>Gâteau d’anniversaire aux confettis</td>
+                <td><input type="text" name="qte_gateau4" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Essuie-glaces</td>
-                <td><input type="text" name="qte_essuie_glaces" size="3" maxlength="3"></td>
+                <td>Mini gâteaux étagés au chocolat</td>
+                <td><input type="text" name="qte_gateau5" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Joints</td>
-                <td><input type="text" name="qte_joints" size="3" maxlength="3"></td>
+                <td>Gâteau original</td>
+                <td><input type="text" name="qte_gateau6" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Thermostats</td>
-                <td><input type="text" name="qte_thermostats" size="3" maxlength="3"></td>
+                <td>Recettes variées de gâteaux</td>
+                <td><input type="text" name="qte_gateau7" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Volants</td>
-                <td><input type="text" name="qte_volants" size="3" maxlength="3"></td>
+                <td>Gâteau simple</td>
+                <td><input type="text" name="qte_gateau8" size="3" maxlength="3"></td>
             </tr>
             <tr>
-                <td>Portes</td>
-                <td><input type="text" name="qte_portes" size="3" maxlength="3"></td>
+                <td>Produits assortis</td>
+                <td><input type="text" name="qte_gateau9" size="3" maxlength="3"></td>
             </tr>
+            <tr>
+                <td>Gâteau au chocolat</td>
+                <td><input type="text" name="qte_gateau10" size="3" maxlength="3"></td>
+            </tr>
+
+
+
             <!-- Après les articles comme Volants et Portes -->
             <tr><td colspan="2"><strong>Informations de contact </strong></td></tr>
 

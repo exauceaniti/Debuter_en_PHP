@@ -1,17 +1,22 @@
 <?php
+require 'header.php';
     $images = [
-        'pneu.png' => 'Pneu',
-        'huile.png' => 'Bidon d\'huile ',
-        'bougie.jpg'=> 'Bougies',
-        'essuie_glace.jpeg'=> 'Essuie_Glace',
-        'joint.jpeg'=> 'Joint',
-        'plaquette_frein.jpg'=> 'Plaquette de Frein',
-        'porte.jpg'=> 'Porte',
-        'thermostat.jpg'=> 'Thermostat',
-        'volant.jpg'=> 'Volant',
+
+        'masekafood.png' => 'masekafood',
+        'Black-Forest-Gateau_Header.jpg' => 'Black-Forest-Gateau_Header',
+        'maseka.png'=> 'maseka',
+        'gateau-d-anniversaire-aux-confettis.jpg'=> 'gateau-d-anniversaire-aux-confettis',
+        'gateau_etage.png'=> 'gateau_etage',
+        'Mini-gateaux-etages-au-chocolat.jpg'=> 'Mini-gateaux-etages-au-chocolat',
+        'summer_party_gateau_61495_16x9.jpg'=> 'summer_party_gateau_61495_16x9',
+        '5-recettes-de-gateau-original.jpg'=> '5-recettes-de-gateau-original',
+        'gateau-simple.png'=> 'gateau-simple',
+        'Recettes-de-gateaux.jpg'=> 'Recettes-de-gateaux',
+        'produits.png'=> 'produits',
+        'gateau-au-chocolat.jpg' => 'gateau-au-chocolat',
     ];
     $keys = array_keys($images);
-    shuffle($images);
+    shuffle($keys);
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,7 +26,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Le Garage de Exauce</h1>
+    <h1>MAseka Food</h1>
 
      <table>
         <?php
@@ -36,6 +41,5 @@
         ?>
     </table>
 
-    <a href="orderform.php">Passer votre commande</a>
 </body>
 </html>
