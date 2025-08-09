@@ -55,7 +55,7 @@ $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
 </head>
 <body>
     <h1> Commandes des Clients</h1>
-    <h2>Garage de Exauce</h2>
+    <h2>Maseka Food</h2>
 
     <?php
         @ $chemin_fichier = $DOCUMENT_ROOT . "/orders/commande.txt";

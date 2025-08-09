@@ -1,22 +1,17 @@
+<!-- header.php -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Maseka Food</title>
+<link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-    <div class="navigation">
-        <nav class="page">
-            <a class="page1" href="index.php">Nos produit</a>
-        </nav>
-        <nav class="navigation">
-            <a class="page2" href="orderform.php"> Passez Votre commande </a>
-        </nav>
-        <nav class="navigation">
-            <a class="page3" href="contact.php">Nous contacter</a>
-        </nav>
-    </div>
-</body>
-</html>
+<header>
+  <nav>
+    <a href="index.php">Accueil</a>
+    <a href="produits.php">Produits</a>
+    <a href="contact.php">Contact</a>
+  </nav>
+</header>

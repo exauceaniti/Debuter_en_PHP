@@ -1,0 +1,118 @@
+/* ----- Style global ----- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f0;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+/* ----- Titre principal ----- */
+h1 {
+    text-align: center;
+    color: #e57272;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* ----- Informations produit ----- */
+.produit-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.produit-info img {
+    max-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.produit-info img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.produit-info p {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+/* ----- Formulaire ----- */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #f2c4c4;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #e57272;
+    box-shadow: 0 0 6px rgba(229, 114, 114, 0.4);
+    outline: none;
+}
+
+/* ----- Bouton ----- */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #f79f9f, #e57272);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #e57272, #d85858);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+/* ----- Navigation ----- */
+nav {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #3dafb3ff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e57272;
+}

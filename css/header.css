@@ -1,0 +1,63 @@
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff0f0;
+    color: #333;
+  }
+  header {
+    background-color: #f79f9f;
+    height: 50px; /* petit espace */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    padding: 0 20px;
+  }
+  nav {
+    display: flex;
+    gap: 25px;
+  }
+  nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.25s ease;
+  }
+  /* soulignement animé discret */
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transition: width 0.25s ease;
+  }
+  nav a:hover,
+  nav a:focus {
+    color: #ffeaea;
+  }
+  nav a:hover::after,
+  nav a:focus::after {
+    width: 100%;
+  }
+
+  /* Responsive: réduire espacement */
+  @media (max-width: 480px) {
+    header {
+      height: 45px;
+      padding: 0 10px;
+    }
+    nav {
+      gap: 15px;
+    }
+    nav a {
+      font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,272 @@
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f79f9f 0%, #fff0f0 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  main {
+    flex: 1;
+    padding: 50px 20px;
+    text-align: center;
+    color: #4a2f2f;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: slideFadeIn 1s ease forwards;
+    animation-delay: 0.5s;
+  }
+  p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto; margin-right: auto;
+    opacity: 0;
+    animation: slideFadeIn 1s ease forwards;
+    animation-delay: 1.2s;
+  }
+
+  /* Container slider */
+  .slider-container {
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(247, 159, 159, 0.5);
+    opacity: 0;
+    transform: scale(0.8);
+    animation: zoomIn 1.2s ease forwards;
+    animation-delay: 1.8s;
+  }
+
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+  }
+
+  .slides img {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+    user-select: none;
+  }
+
+
+  .commande-wrapper {
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+
+.commande-wrapper {
+  margin-top: 60px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+/* Bouton bien rond, flottant, avec ombre douce */
+.btn-commander {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f79f9f;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(247, 159, 159, 0.7);
+  cursor: pointer;
+  user-select: none;
+  padding: 0;
+  animation: floatBtn 3s ease-in-out infinite;
+  transition: background-color 0.3s ease;
+  overflow: visible;
+  border: 4px solid white;
+}
+
+/* Le texte centré dans le bouton */
+.btn-commander > span {
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Effet hover */
+.btn-commander:hover,
+.btn-commander:focus {
+  background: #e57272;
+  box-shadow: 0 12px 30px rgba(229, 114, 114, 0.9);
+  outline: none;
+  transform: scale(1.1);
+}
+
+/* Animation flottante du bouton */
+@keyframes floatBtn {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* Wrapper bébé et porte */
+.baby-wrapper {
+  position: absolute;
+  bottom: -120px; /* en dessous du bouton */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 120px;
+  pointer-events: none; /* ne gêne pas le clic */
+}
+
+/* Bulles bébé rondes */
+.baby-bubble {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background: #ffd5c2;
+  border-radius: 50%;
+  box-shadow: inset 0 6px 10px #ffa68d;
+  animation: bounce 2.5s ease-in-out infinite;
+}
+
+/* Tête bébé */
+.baby-head {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffbfa0;
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Yeux */
+.baby-head .eye {
+  position: absolute;
+  top: 28px;
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 50%;
+}
+.baby-head .eye.left {
+  left: 22px;
+}
+.baby-head .eye.right {
+  right: 22px;
+}
+
+/* Bouche simple souriante */
+.baby-head .mouth {
+  position: absolute;
+  bottom: 22px;
+  left: 50%;
+  width: 18px;
+  height: 10px;
+  border: 3px solid #d45c5c;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  transform: translateX(-50%);
+}
+
+/* Bras bébé qui fait signe */
+.baby-head .arm {
+  position: absolute;
+  bottom: 0;
+  right: -14px;
+  width: 22px;
+  height: 35px;
+  background: #ffbfa0;
+  border-radius: 50% 50% 20% 20%;
+  animation: armWave 2.5s ease-in-out infinite;
+  transform-origin: top center;
+}
+
+/* Animation de bounce du bébé */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* Animation du bras qui fait signe */
+@keyframes armWave {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(25deg); }
+}
+
+/* La porte rigolote à droite */
+.door {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  width: 50px;
+  height: 80px;
+  cursor: default;
+}
+
+.door-frame {
+  width: 100%;
+  height: 100%;
+  background: #7f5f3a;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px #5a3f22;
+  position: relative;
+  z-index: 1;
+}
+
+.door-panel {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  width: 34px;
+  height: 60px;
+  background: #b68853;
+  border-radius: 6px;
+  box-shadow: inset 0 0 8px #8b6c44;
+  z-index: 2;
+  animation: doorOpenClose 4s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+/* Animation porte qui s'ouvre et ferme */
+@keyframes doorOpenClose {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(15deg); }
+}
+
+
+  footer {
+    background-color: #f79f9f;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 -3px 10px rgba(247,159,159,0.7);
+  }
+
+  /* Animations */
+  @keyframes slideFadeIn {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes zoomIn {
+    0% { opacity: 0; transform: scale(0.8) translateY(40px); }
+    100% { opacity: 1; transform: scale(1) translateY(0); }
+  }

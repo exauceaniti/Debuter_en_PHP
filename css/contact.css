@@ -1,0 +1,68 @@
+/* Style pour la section formulaire-contact */
+.formulaire-contact {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Titre centré */
+.formulaire-contact h2 {
+    text-align: center;
+    color: #e57272;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* Champs de saisie */
+.formulaire-contact input[type="text"],
+.formulaire-contact input[type="email"],
+.formulaire-contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: vertical;
+}
+
+/* Focus sur les champs */
+.formulaire-contact input:focus,
+.formulaire-contact textarea:focus {
+    border-color: #e57272;
+    box-shadow: 0 0 8px rgba(229, 114, 114, 0.5);
+    outline: none;
+}
+
+/* Taille textarea */
+.formulaire-contact textarea {
+    min-height: 130px;
+}
+
+/* Bouton envoyer */
+.formulaire-contact button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #f79f9f, #e57272);
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Effet hover sur bouton */
+.formulaire-contact button:hover {
+    background: linear-gradient(135deg, #e57272, #d85858);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(229, 114, 114, 0.4);
+}

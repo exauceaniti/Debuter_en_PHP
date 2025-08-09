@@ -1,105 +1,16 @@
-===================== COMMANDE DU 09/08/2025 08:13 =====================
-Adresse Client : 
-Téléphone : 
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
-===================== COMMANDE DU 09/08/2025 08:24 =====================
-Adresse Client : Rue Kin Num 76
-Téléphone : +243820853461
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
-===================== COMMANDE DU 09/08/2025 08:24 =====================
-Adresse Client : Rue Kin Num 76
-Téléphone : +243820853461
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
-===================== COMMANDE DU 09/08/2025 08:26 =====================
-Adresse Client : Rue Kin Num 76
-Téléphone : +243820853461
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
-===================== COMMANDE DU 09/08/2025 09:40 =====================
-Adresse Client : 
-Téléphone : 
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
-===================== COMMANDE DU 09/08/2025 09:40 =====================
-Adresse Client : Rdc Butembo 
-Téléphone : +243820853461
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
-===================== COMMANDE DU 09/08/2025 09:47 =====================
-Adresse Client : 
-Téléphone : 
-
-Article                  Quantité Prix U      Montant        
---------------------------------------------------------------
-Pneus                    2         15 000,00   30 000,00      
---------------------------------------------------------------
-Montant Total HT : 30 000,00 Franc
-Remise (15%) : -4 500,00 Franc
-Montant après remise : 25 500,00 Franc
-TVA (15%) : 3 825,00 Franc
-MONTANT TOTAL TTC : 29 325,00 Franc
-
-
+<?php
+return array (
+  0 => 
+  array (
+    'numCommande' => 'BAE582C3',
+    'produit' => 'Black Forest Gâteau',
+    'quantite' => 1,
+    'prixUnitaire' => 1500,
+    'prixTotal' => 1500,
+    'nom' => 'Exuce Aniti',
+    'adresse' => 'bbo',
+    'telephone' => '+243820853461',
+    'email' => 'exauceaniti@gmail.com',
+    'date' => '09/08/2025 13:45:09',
+  ),
+);
